@@ -83,7 +83,7 @@ const obtenerEleccionComputadora = () => {
 const decidirPuntaje = () => {
     if (eleccionComputadora == "piedra") {
         if (eleccionUsuaria == "piedra") {
-            resultadoTexto.textContent = "Empate!🥱"
+            resultadoTexto.textContent = "Empate!😴"
         } else if (eleccionUsuaria == "papel") {
             resultadoTexto.textContent = "Ganaste 🥳"
             puntosUsuaria++
@@ -95,7 +95,7 @@ const decidirPuntaje = () => {
         }
     } else if (eleccionComputadora == "papel") {
         if (eleccionUsuaria == "papel") {
-            resultadoTexto.textContent = "Empate! 🥱"
+            resultadoTexto.textContent = "Empate! 😴"
         } else if (eleccionUsuaria == "tijera") {
             resultadoTexto.textContent = "Ganaste 🥳"
             puntosUsuaria++
@@ -107,7 +107,7 @@ const decidirPuntaje = () => {
         }
     } else if (eleccionComputadora == "tijera") {
         if (eleccionUsuaria == "tijera") {
-            resultadoTexto.textContent = "Empate!🥱"
+            resultadoTexto.textContent = "Empate!😴"
         } else if (eleccionUsuaria == "piedra") {
             resultadoTexto.textContent = "Ganaste 🥳"
             puntosUsuaria++
