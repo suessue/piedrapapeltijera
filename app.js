@@ -65,12 +65,12 @@ botonTijera.onclick = () => {
 
 const obtenerEleccionComputadora = () => {
 
-    let numeroAlAzar = Math.floor(Math.random() * 3);
+    let numeroAlAzar = Math.floor(Math.random() * 3 + 1);
 
-    if (numeroAlAzar == 0) {
+    if (numeroAlAzar == 1) {
         eleccionComputadora = "piedra";
         manoComputadora.src = "./assets/piedra_computadora.png";
-    } else if (numeroAlAzar == 1) {
+    } else if (numeroAlAzar == 2) {
         eleccionComputadora = "papel"
         manoComputadora.src = "./assets/papel_computadora.png";
     } else {
