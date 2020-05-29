@@ -83,39 +83,39 @@ const obtenerEleccionComputadora = () => {
 const decidirPuntaje = () => {
     if (eleccionComputadora == "piedra") {
         if (eleccionUsuaria == "piedra") {
-            resultadoTexto.textContent = "Empate!😴"
+            resultadoTexto.textContent = "empate!😴"
         } else if (eleccionUsuaria == "papel") {
-            resultadoTexto.textContent = "Ganaste 🥳"
+            resultadoTexto.textContent = "ganaste 🥳"
             puntosUsuaria++
             puntajeUsuaria.textContent = puntosUsuaria;
         } else {
             puntosComputadora++
             puntajeComputadora.textContent = puntosComputadora;
-            resultadoTexto.textContent = "Perdiste 😢"
+            resultadoTexto.textContent = "perdiste 😢"
         }
     } else if (eleccionComputadora == "papel") {
         if (eleccionUsuaria == "papel") {
-            resultadoTexto.textContent = "Empate! 😴"
+            resultadoTexto.textContent = "empate! 😴"
         } else if (eleccionUsuaria == "tijera") {
-            resultadoTexto.textContent = "Ganaste 🥳"
+            resultadoTexto.textContent = "ganaste 🥳"
             puntosUsuaria++
             puntajeUsuaria.textContent = puntosUsuaria;
         } else {
             puntosComputadora++
             puntajeComputadora.textContent = puntosComputadora;
-            resultadoTexto.textContent = "Perdiste 😢"
+            resultadoTexto.textContent = "perdiste 😢"
         }
     } else if (eleccionComputadora == "tijera") {
         if (eleccionUsuaria == "tijera") {
-            resultadoTexto.textContent = "Empate!😴"
+            resultadoTexto.textContent = "empate!😴"
         } else if (eleccionUsuaria == "piedra") {
-            resultadoTexto.textContent = "Ganaste 🥳"
+            resultadoTexto.textContent = "ganaste 🥳"
             puntosUsuaria++
             puntajeUsuaria.textContent = puntosUsuaria;
         } else {
             puntosComputadora++
             puntajeComputadora.textContent = puntosComputadora;
-            resultadoTexto.textContent = "Perdiste 😢"
+            resultadoTexto.textContent = "perdiste 😢"
         }
     }
 }
